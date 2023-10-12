@@ -14,7 +14,7 @@ import es.dmoral.toasty.Toasty
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityManBinding
+    private lateinit var binding: ActivityMainBinding
 
     private val redButton get() = binding.redButton as Button
     private val blueButton get() = binding.blueButton
